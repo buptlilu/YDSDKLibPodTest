@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YDSDKLibPodTest'
-  s.version          = '0.1.0'
-  s.summary          = '测试lib介绍'
+  s.version          = '0.4.0'
+  s.summary          = '测试lib介绍222'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

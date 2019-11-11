@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0B5C13D95D572C3F6CD4CC162779A819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		2C0A09ED23794D7900B3F50B /* YDResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2C0A09EA23794D7900B3F50B /* YDResource.bundle */; };
-		2C0A09EE23794D7900B3F50B /* libYDADSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C0A09EB23794D7900B3F50B /* libYDADSDK.a */; };
-		2C0A09EF23794D7900B3F50B /* YDSDKHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C0A09EC23794D7900B3F50B /* YDSDKHeader.h */; };
 		4C54F54E3C9C6B45A1445A5D4B9B35A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		51F33ED4B6142CE8DC93F95381880ADA /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 37880CCC51CAB729C51777EE868C8A26 /* ReplaceMe.m */; };
 		574BB51CD2EB1510B160A9DFF26534BE /* Pods-YDSDKLibPodTest_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 646CAE22A1818B59AB743CB98FDC12A4 /* Pods-YDSDKLibPodTest_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,20 +43,17 @@
 		0B133C57BEDBD7F59AF39B84583EAF45 /* YDSDKLibPodTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YDSDKLibPodTest.modulemap; sourceTree = "<group>"; };
 		0EA639898CBA2B823CF8B96D5415BF7F /* YDUserAgentInfoManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YDUserAgentInfoManager.h; path = YDSDKLibPodTest/Classes/YDUserAgentInfoManager.h; sourceTree = "<group>"; };
 		11329870633BB882FC923B9F7267AE34 /* Pods-YDSDKLibPodTest_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDSDKLibPodTest_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1B6D55C224C020C7C637926D300F4E16 /* YDSDKLibPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YDSDKLibPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6D55C224C020C7C637926D300F4E16 /* YDSDKLibPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YDSDKLibPodTest.framework; path = YDSDKLibPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		20724B66CFE3AA09177F9347DC08FBC4 /* Pods-YDSDKLibPodTest_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDSDKLibPodTest_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		2187D8DE47B2A823CA580FEEE6CFDB91 /* Pods-YDSDKLibPodTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YDSDKLibPodTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		238D72943E23A14E1C56924A628FAF29 /* Pods-YDSDKLibPodTest_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDSDKLibPodTest_Example.modulemap"; sourceTree = "<group>"; };
 		27EE64F093B8583F1353B2627E170522 /* Pods-YDSDKLibPodTest_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDSDKLibPodTest_Example-dummy.m"; sourceTree = "<group>"; };
-		2C0A09EA23794D7900B3F50B /* YDResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YDResource.bundle; sourceTree = "<group>"; };
-		2C0A09EB23794D7900B3F50B /* libYDADSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libYDADSDK.a; sourceTree = "<group>"; };
-		2C0A09EC23794D7900B3F50B /* YDSDKHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDSDKHeader.h; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		333DAD4F6A5E240167F230A02D8E53F3 /* Pods-YDSDKLibPodTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YDSDKLibPodTest_Tests-dummy.m"; sourceTree = "<group>"; };
 		37880CCC51CAB729C51777EE868C8A26 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = YDSDKLibPodTest/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		381A6B6ADD1F50624307626AAFF73A87 /* Pods-YDSDKLibPodTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDSDKLibPodTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		39AAC96B9E772A044254D90BA17CE59C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		3C295FA462CF23F5330A071F1739DB5A /* Pods_YDSDKLibPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDSDKLibPodTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39AAC96B9E772A044254D90BA17CE59C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3C295FA462CF23F5330A071F1739DB5A /* Pods_YDSDKLibPodTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDSDKLibPodTest_Tests.framework; path = "Pods-YDSDKLibPodTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43372D38C2C1EB50DD930FED018C5853 /* Pods-YDSDKLibPodTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDSDKLibPodTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		478843EF6E9EB676B57C1EDB96F2DD97 /* YDSDKLibPodTest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YDSDKLibPodTest.xcconfig; sourceTree = "<group>"; };
 		5337C0750F395589EE6C418077F9A5D4 /* Pods-YDSDKLibPodTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDSDKLibPodTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,15 +63,15 @@
 		8626156929C47990627653482E0C3A37 /* Pods-YDSDKLibPodTest_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDSDKLibPodTest_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8CFB9855791304D27A2C504166B32959 /* YDSDKLibPodTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YDSDKLibPodTest-prefix.pch"; sourceTree = "<group>"; };
 		8F7973DD171231CB06BF0E306AB25CCA /* Pods-YDSDKLibPodTest_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YDSDKLibPodTest_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A47EA01815015AA582AE60BED034043D /* YDSDKLibPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YDSDKLibPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A47EA01815015AA582AE60BED034043D /* YDSDKLibPodTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YDSDKLibPodTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B3E1641DCBCA80427A5FC6E0DFE0015F /* YDSDKLibPodTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YDSDKLibPodTest-Info.plist"; sourceTree = "<group>"; };
 		C714DBB07A4F4D2C1DD456A08690DDB7 /* Pods-YDSDKLibPodTest_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YDSDKLibPodTest_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D4231EA676DB9C6DBEB49DD14D4D6CC8 /* Pods-YDSDKLibPodTest_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDSDKLibPodTest_Example-Info.plist"; sourceTree = "<group>"; };
 		EE4C2B664102B1929689694FD7B7FE9F /* YDSDKLibPodTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YDSDKLibPodTest-dummy.m"; sourceTree = "<group>"; };
-		EEFA0C55D6320B49F604B267EE7B0B34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EEFA0C55D6320B49F604B267EE7B0B34 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		F91F1598018DC68B79A3BAD7DBD9254D /* Pods-YDSDKLibPodTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YDSDKLibPodTest_Tests.modulemap"; sourceTree = "<group>"; };
-		F9649EB5F1ABB7038254B4752F775F5C /* Pods_YDSDKLibPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YDSDKLibPodTest_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9649EB5F1ABB7038254B4752F775F5C /* Pods_YDSDKLibPodTest_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YDSDKLibPodTest_Example.framework; path = "Pods-YDSDKLibPodTest_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF00751EB678852FBEE87E4BB12E2B93 /* Pods-YDSDKLibPodTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YDSDKLibPodTest_Tests-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0A09EE23794D7900B3F50B /* libYDADSDK.a in Frameworks */,
 				4C54F54E3C9C6B45A1445A5D4B9B35A5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -110,17 +103,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C0A09E923794D7900B3F50B /* YDSDK */ = {
-			isa = PBXGroup;
-			children = (
-				2C0A09EA23794D7900B3F50B /* YDResource.bundle */,
-				2C0A09EB23794D7900B3F50B /* libYDADSDK.a */,
-				2C0A09EC23794D7900B3F50B /* YDSDKHeader.h */,
-			);
-			name = YDSDK;
-			path = YDSDKLibPodTest/YDSDK;
-			sourceTree = "<group>";
-		};
 		752A53F4FF87CA93995C76BCF534286D /* Pod */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,7 +116,6 @@
 		7681A17699912D69BBDD9F82D37000F2 /* YDSDKLibPodTest */ = {
 			isa = PBXGroup;
 			children = (
-				2C0A09E923794D7900B3F50B /* YDSDK */,
 				37880CCC51CAB729C51777EE868C8A26 /* ReplaceMe.m */,
 				0EA639898CBA2B823CF8B96D5415BF7F /* YDUserAgentInfoManager.h */,
 				04B3ADC02389BD736138AA567DE3FF97 /* YDUserAgentInfoManager.m */,
@@ -270,7 +251,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4035A09DB8AFD581C0F293FD807C76 /* YDSDKLibPodTest-umbrella.h in Headers */,
-				2C0A09EF23794D7900B3F50B /* YDSDKHeader.h in Headers */,
 				BC556E9820036DFBCFCA879BA54F1C52 /* YDUserAgentInfoManager.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +348,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C0A09ED23794D7900B3F50B /* YDResource.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,7 +529,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
