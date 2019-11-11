@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YDSDKLibPodTest'
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   s.summary          = '测试lib'
 
 # This description is used to generate tags and improve search results.
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
     yd.source_files = 'YDSDKLibPodTest/YDSDK/*'
     yd.public_header_files = 'YDSDKLibPodTest/YDSDK/YDSDKHeader.h'
     yd.resources = ['YDSDKLibPodTest/YDSDK/YDResource.bundle']
-    yd.frameworks = 'UIKit','CoreGraphics','AdSupport','StoreKit','SystemConfiguration','QuartzCore','CoreLocation','Foundation','CoreTelephony','EventKit','EventKitUI','MediaPlayer','AudioToolbox','AVFoundation','MessageUI','Security','CoreMedia'
+    yd.frameworks = ['UIKit','CoreGraphics','AdSupport','StoreKit','SystemConfiguration','QuartzCore','CoreLocation','Foundation','CoreTelephony','EventKit','EventKitUI','MediaPlayer','AudioToolbox','AVFoundation','MessageUI','Security','CoreMedia']
   end
 
 end
