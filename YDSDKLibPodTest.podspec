@@ -39,4 +39,12 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
+  s.subspec 'YDDict' do |yd|
+    yd.source_files = 'YDSDKLibPodTest/YDSDK/*'
+    yd.public_header_files = 'YDSDKLibPodTest/YDSDK/YDSDKHeader.h'
+    yd.resources = ['YDSDKLibPodTest/YDSDK/YDResource.bundle']
+    yd.frameworks = 'UIKit','CoreGraphics','AdSupport','StoreKit','SystemConfiguration','QuartzCore','CoreLocation','Foundation','CoreTelephony','EventKit','EventKitUI','MediaPlayer','AudioToolbox','AVFoundation','MessageUI','Security','CoreMedia'
+  end
+
 end
