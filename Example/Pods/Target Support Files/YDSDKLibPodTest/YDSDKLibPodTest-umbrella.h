@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YDUserAgentInfoManager.h"
 
 FOUNDATION_EXPORT double YDSDKLibPodTestVersionNumber;
 FOUNDATION_EXPORT const unsigned char YDSDKLibPodTestVersionString[];

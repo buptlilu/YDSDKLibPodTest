@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0930"
+   LastUpgradeVersion = "1100"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "452BE770D77D394925ACB66BDEFC8907"
+               BlueprintIdentifier = "56DD5102DCA6A26963FAE87A99AEC264"
                BuildableName = "Pods_YDSDKLibPodTest_Tests.framework"
                BlueprintName = "Pods-YDSDKLibPodTest_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">

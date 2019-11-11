@@ -7,6 +7,7 @@
 //
 
 #import "YDViewController.h"
+#import "YDUserAgentInfoManager.h"
 
 @interface YDViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    NSLog(@"user agent:%@", [YDUserAgentInfoManager userAgent]);
 }
 
 - (void)didReceiveMemoryWarning
