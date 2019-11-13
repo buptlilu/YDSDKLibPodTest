@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YDSDKLibPodTest'
-  s.version          = '0.8.0'
+  s.version          = '0.9.0'
   s.summary          = '测试lib'
 
 # This description is used to generate tags and improve search results.
@@ -40,13 +40,18 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
   
-  s.frameworks = ['UIKit','CoreGraphics','AdSupport','StoreKit','SystemConfiguration','QuartzCore','CoreLocation','Foundation','CoreTelephony','EventKit','EventKitUI','MediaPlayer','AudioToolbox','AVFoundation','MessageUI','Security','CoreMedia']
+  s.source_files = ['YDSDKLibPodTest/Classes/**/*', 'YDSDKLibPodTest/YDSDK/*.h']
+  s.public_header_files = 'YDSDKLibPodTest/YDSDKHeader.h'
+  s.resources = ['YDSDKLibPodTest/YDSDK/YDResource.bundle']
   
-  s.subspec 'YDSDK' do |yd|
-    yd.source_files = 'YDSDKLibPodTest/YDSDK/*'
-    yd.public_header_files = 'YDSDKLibPodTest/YDSDK/YDSDKHeader.h'
-    yd.resources = ['YDSDKLibPodTest/YDSDK/YDResource.bundle']
-    yd.vendored_frameworks = 'YDSDKLibPodTest/YDSDK/*.a'
-  end
+  s.frameworks = ['UIKit','CoreGraphics','AdSupport','StoreKit','SystemConfiguration','QuartzCore','CoreLocation','Foundation','CoreTelephony','EventKit','EventKitUI','MediaPlayer','AudioToolbox','AVFoundation','MessageUI','Security','CoreMedia']
+  s.vendored_libraries = 'YDSDKLibPodTest/YDSDK/libYDADSDK.a'
+  #s.subspec 'YDSDK' do |yd|
+   # yd.source_files = 'YDSDKLibPodTest/YDSDK/*.h'
+    #yd.public_header_files = 'YDSDKLibPodTest/YDSDK/YDSDKHeader.h'
+    #yd.resources = ['YDSDKLibPodTest/YDSDK/YDResource.bundle']
+    #yd.vendored_libraries = 'YDSDKLibPodTest/YDSDK/*.a'
+    #yd.frameworks = ['UIKit','CoreGraphics','AdSupport','StoreKit','SystemConfiguration','QuartzCore','CoreLocation','Foundation','CoreTelephony','EventKit','EventKitUI','MediaPlayer','AudioToolbox','AVFoundation','MessageUI','Security','CoreMedia']
+ #end
 
 end
