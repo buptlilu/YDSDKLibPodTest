@@ -42,7 +42,7 @@ Pod::Spec.new do |s|
   
   s.frameworks = ['UIKit','CoreGraphics','AdSupport','StoreKit','SystemConfiguration','QuartzCore','CoreLocation','Foundation','CoreTelephony','EventKit','EventKitUI','MediaPlayer','AudioToolbox','AVFoundation','MessageUI','Security','CoreMedia']
   
-  s.subspec 'YDADSDK' do |yd|
+  s.subspec 'YDSDK' do |yd|
     yd.source_files = 'YDSDKLibPodTest/YDSDK/*'
     yd.public_header_files = 'YDSDKLibPodTest/YDSDK/YDSDKHeader.h'
     yd.resources = ['YDSDKLibPodTest/YDSDK/YDResource.bundle']
