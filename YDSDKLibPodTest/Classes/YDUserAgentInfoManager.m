@@ -1,6 +1,6 @@
 //
 //  YDUserAgentInfoManager.m
-//  YDADSDK-2.0.0 0.8.0 test
+//  YDADSDK-2.0.0 0.10.0 test
 //
 //  Created by lilu on 2019/11/7.
 //  Copyright © 2019 Netease Youdao. All rights reserved.

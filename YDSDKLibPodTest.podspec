@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YDSDKLibPodTest'
-  s.version          = '0.9.0'
+  s.version          = '0.10.0'
   s.summary          = '测试lib'
 
 # This description is used to generate tags and improve search results.
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-测试lib描述介绍0.8.0.
+测试lib描述介绍0.10.0.
                        DESC
 
   s.homepage         = 'https://github.com/buptlilu/YDSDKLibPodTest'
@@ -44,7 +44,7 @@ Pod::Spec.new do |s|
   s.public_header_files = 'YDSDKLibPodTest/YDSDKHeader.h'
   s.resources = ['YDSDKLibPodTest/YDSDK/YDResource.bundle']
   
-  s.frameworks = ['UIKit','CoreGraphics','AdSupport','StoreKit','SystemConfiguration','QuartzCore','CoreLocation','Foundation','CoreTelephony','EventKit','EventKitUI','MediaPlayer','AudioToolbox','AVFoundation','MessageUI','Security','CoreMedia']
+  s.frameworks = ['UIKit','CoreGraphics','AdSupport','StoreKit','SystemConfiguration','QuartzCore','CoreLocation','Foundation','CoreTelephony','EventKit','EventKitUI','MediaPlayer','AudioToolbox','AVFoundation','MessageUI','Security','CoreMedia', 'SafariServices', 'CoreMotion']
   s.vendored_libraries = 'YDSDKLibPodTest/YDSDK/libYDADSDK.a'
   #s.subspec 'YDSDK' do |yd|
    # yd.source_files = 'YDSDKLibPodTest/YDSDK/*.h'
